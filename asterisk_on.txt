@@ -1,0 +1,15 @@
+# Esta Asterisk Levantada o Caida
+Detectar si una asterisk  está funcionando o apagada generalmente implica realizar una conexión y verificar su estado. 
+Puedes utilizar la biblioteca 'socket' en Python para intentar establecer una conexión con el servidor Asterisk.
+
+Asegúrate de cambiar 'asterisk_host' y 'asterisk_port' según la configuración de tu servidor Asterisk. Este código intentará 
+establecer una conexión y te informará si la conexión es exitosa o si hay algún error.
+
+Ten en cuenta que este código asume que la interfaz de administración de Asterisk (generalmente en el puerto 5038)
+está habilitada y accesible desde la máquina donde se ejecuta el script. Además, ten en cuenta que este script puede necesitar 
+permisos adecuados para acceder al puerto especificado.
+
+
+
+
+
